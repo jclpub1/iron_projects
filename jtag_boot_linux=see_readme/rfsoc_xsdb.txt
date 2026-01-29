@@ -1,0 +1,41 @@
+
+#connect
+connect -url 10.109.130.208:3121
+after 1500
+#Disable Security gates to view PMU MB target
+targets -set -filter {name =~ "PSU"}
+#By default, JTAGsecurity gates are enabled
+#This disables security gates for DAP, PLTAP and PMU.
+mwr 0xffca0038 0x1ff
+after 500
+#Load and run PMU FW
+targets -set -filter {name =~ "MicroBlaze PMU"}
+dow images/linux/pmufw.elf
+con
+#Reset A53, load and run FSBL
+after 500
+
+targets -set -nocase -filter {name =~ "*PS TAP*"}
+fpga images/linux/system.bit
+
+targets -set -filter {name =~ "Cortex-A53 #0"}
+rst -processor
+after 500
+
+dow images/linux/zynqmp_fsbl.elf
+
+con
+#Give FSBL time to run
+after 5000
+stop
+after 5000
+dow -data images/linux/image.ub 0x10000000
+
+#Other SW...
+dow images/linux/u-boot.elf
+dow images/linux/bl31.elf
+
+con
+
+# Run bootm 0x10000000 in u-boot
+
