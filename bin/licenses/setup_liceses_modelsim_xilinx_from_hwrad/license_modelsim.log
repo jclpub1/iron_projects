@@ -1,0 +1,72 @@
+15:03:39 (lmgrd) -----------------------------------------------
+15:03:39 (lmgrd)   Please Note:
+15:03:39 (lmgrd) 
+15:03:39 (lmgrd)   This log is intended for debug purposes only.
+15:03:39 (lmgrd)   In order to capture accurate license
+15:03:39 (lmgrd)   usage data into an organized repository,
+15:03:39 (lmgrd)   please enable report logging. Use Flexera Software LLC's
+15:03:39 (lmgrd)   software license administration  solution,
+15:03:39 (lmgrd)   FlexNet Manager, to  readily gain visibility
+15:03:39 (lmgrd)   into license usage data and to create
+15:03:39 (lmgrd)   insightful reports on critical information like
+15:03:39 (lmgrd)   license availability and usage. FlexNet Manager
+15:03:39 (lmgrd)   can be fully automated to run these reports on
+15:03:39 (lmgrd)   schedule and can be used to track license
+15:03:39 (lmgrd)   servers and usage across a heterogeneous
+15:03:39 (lmgrd)   network of servers including Windows NT, Linux
+15:03:39 (lmgrd)   and UNIX.
+15:03:39 (lmgrd) 
+15:03:39 (lmgrd) -----------------------------------------------
+15:03:39 (lmgrd) 
+15:03:39 (lmgrd) 
+15:03:39 (lmgrd) Server's System Date and Time: Tue Jan 21 2025 15:03:39 EST
+15:03:39 (lmgrd) SLOG: Summary LOG statistics is enabled.
+15:03:39 (lmgrd) FlexNet Licensing (v11.14.1.3 build 212549 i86_lsb) started on hwrad (linux) (1/21/2025)
+15:03:39 (lmgrd) Copyright (c) 1988-2017 Flexera Software LLC. All Rights Reserved.
+15:03:39 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+15:03:39 (lmgrd) License file(s): /usr/local/flexlm/licenses/license.dat
+15:03:39 (lmgrd) lmgrd tcp-port 1717
+15:03:39 (lmgrd) (@lmgrd-SLOG@) ===============================================
+15:03:39 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
+15:03:39 (lmgrd) (@lmgrd-SLOG@) Start-Date: Tue Jan 21 2025 15:03:39 EST
+15:03:39 (lmgrd) (@lmgrd-SLOG@) PID: 5535
+15:03:39 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.14.1.3 build 212549 i86_lsb ( build 212549 (ipv6))
+15:03:39 (lmgrd) (@lmgrd-SLOG@) 
+15:03:39 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
+15:03:39 (lmgrd) (@lmgrd-SLOG@) Listening port: 1717
+15:03:39 (lmgrd) (@lmgrd-SLOG@) 
+15:03:39 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
+15:03:39 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
+15:03:39 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -c /usr/local/flexlm/licenses/license.dat -l /home/jcl/bin/license_modelsim.log 
+15:03:39 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  /usr/local/flexlm/licenses/license.dat
+15:03:39 (lmgrd) (@lmgrd-SLOG@) ===============================================
+15:03:39 (lmgrd) Starting vendor daemons ... 
+15:03:39 (lmgrd) Started mgcld (internet tcp_port 45776 pid 5536)
+15:03:39 (mgcld) FlexNet Licensing version v11.14.1.3 build 212549 i86_lsb
+15:03:39 (mgcld) SLOG: Summary LOG statistics is enabled.
+15:03:39 (mgcld) SLOG: FNPLS-INTERNAL-CKPT1
+15:03:39 (mgcld) SLOG: VM Status: 0
+15:03:39 (mgcld) EXPIRED: msimcompare
+15:03:39 (mgcld) EXPIRED: msimcoverage
+15:03:39 (mgcld) EXPIRED: msimdataflow
+15:03:39 (mgcld) EXPIRED: msimpevsim
+15:03:39 (mgcld) EXPIRED: msimpevsimvlog
+15:03:39 (mgcld) EXPIRED: msimviewer
+15:03:39 (mgcld) EXPIRED: peproassertions
+15:03:39 (mgcld) EXPIRED: secureip
+15:03:39 (mgcld) License server system started on hwrad
+15:03:39 (mgcld) No features to serve, exiting
+15:03:39 (mgcld) EXITING DUE TO SIGNAL 36 Exit reason 4
+15:03:39 (lmgrd) mgcld exited with status 36 (No features to serve)
+15:03:39 (lmgrd) mgcld daemon found no features.  Please correct
+15:03:39 (lmgrd) license file and re-start daemons.
+15:03:39 (lmgrd) 
+15:03:39 (lmgrd) This may be due to the fact that you are using
+15:03:39 (lmgrd) a different license file from the one you expect.
+15:03:39 (lmgrd) Check to make sure that:
+15:03:39 (lmgrd) /usr/local/flexlm/licenses/license.dat 
+15:03:39 (lmgrd) is the license file you want to use.
+15:03:39 (lmgrd) 
+21:03:39 (lmgrd) TIMESTAMP 1/21/2025
+ 3:03:39 (lmgrd) TIMESTAMP 1/22/2025
+ 9:03:39 (lmgrd) TIMESTAMP 1/22/2025

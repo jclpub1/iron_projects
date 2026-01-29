@@ -1,0 +1,13 @@
+# xterm -ls -geometry 80x24+10+10 -bg black -fg white -fn 10x20 & 
+# jcl: -ls causes overrides of env vars of "parent" shell by those in .profile/.bashrc    
+# but removing -ls will cause execution of only the .bashrc file - as well as inheriting all env ars from the parent  
+# xterm -ls -sb -rightbar -bg black -fg white -bd orange -fn 10x20 &
+
+# good for desktop -> too big for laptop  
+# xterm -geometry 110x40+10+10 -sb -rightbar -bg black -fg white -bd orange -fn 10x20 &
+# xterm -ls -geometry 80x24+10+10 -sb -rightbar -bg black -fg white -bd orange -fn 10x20 &
+# VNC -> xterm -> env var PROJ gets from PS1 - even though all env vars are inherited from parent 
+# export PS1="$PROJ:`hostname | cut -d "." -f1`:\$PWD> "
+# xterm -geometry 80x24+10+10 -sb -rightbar -bg black -fg white -bd orange -fn 10x20 &
+# xterm -geometry 160x48+10+10 -sb -rightbar -bg black -fg white -bd orange -fn 10x20 &
+xterm -geometry 120x36+10+10 -sb -rightbar -bg black -fg white -bd orange -fn 10x20 &

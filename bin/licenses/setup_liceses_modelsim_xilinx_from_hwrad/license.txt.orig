@@ -1,0 +1,127 @@
+
+
+
+
+# IMPORTANT
+ 
+# As used herein, 'Siemens' refers to Siemens Product Lifecycle Management Inc. or
+# its affiliates.  Customer's use of Siemens' products and/or services is subject to the
+# terms of the applicable quotation and the signed agreement entered into between
+# Siemens and Customer.  Please note that Mentor Graphics may fulfil the delivery
+# obligations of Customer's order placed with Siemens or its authorized distributor.
+ 
+# Customer's use of Mentor Graphics' product and/or services is subject to the
+# terms of the applicable quotation and the agreement specified below. If
+# Customer has a signed agreement with Mentor Graphics or its authorized
+# distributor related to the products or services in the order, Customer's use
+# is subject to the terms of that agreement. If Customer does not have a signed
+# agreement related to the products or services, Customer's use is subject to
+# Mentor Graphics' standard End-user License Agreement (EULA) which may be
+# viewed at http://www.mentor.com/eula. If Customer's order includes embedded
+# software, use is subject to the EULA with the Embedded Software Supplement to
+# the EULA (collectively, the Embedded EULA) which may be viewed at
+# http://www.mentor.com/embeddedeula. Customer's use of any support services is
+# subject to Mentor Graphics' standard End-user Support Terms which may be
+# viewed at http://supportnet.mentor.com/supportterms. Mentor Graphics' EULA,
+# Embedded EULA, and Support Terms will also be made available to Customer on
+# request.
+ 
+# Any additional or conflicting terms and conditions that appear on Customer's
+# purchase order or are presented in any electronic portal or automated order
+# management system, whether or not required to be electronically accepted,
+# shall not apply.
+ 
+# IF CUSTOMER DOES NOT AGREE TO THESE TERMS, DO NOT INSTALL OR USE THE
+# PRODUCT AND RETURN IT TO MENTOR GRAPHICS IMMEDIATELY.
+ 
+# Authorization code(s) are issued for a limited time period.
+# If the authorization code(s) set forth below are for software which
+# is licensed to you for a limited term OR are meant to enable software
+# you previously acquired from either Siemens or Mentor Graphics, installation of
+# these authorization code(s) indicates YOUR COMPLETE AND UNCONDITIONAL
+# AGREEMENT to use only those authorization code(s) required to operate
+# the software you actually acquired and to delete any duplicate
+# authorization code(s).
+ 
+# This message is for the sole use of the intended recipient. If you
+# are not the intended recipient, please contact sender and delete
+# all copies.
+ 
+# If you have problems installing or using these codes, please visit
+# Support Center at : http://communities.mentor.com/mgcx/community/licensing_installation
+# for troubleshooting information and details on how to get technical support.
+ 
+# -------------------------------
+# To view your site's authorization code file or configuration report,
+# log in to Support Center and visit:
+# https://support.mentor.com/en/
+ 
+# After the authorization codes, there is a section called License
+# Content that maps the products in this file to the license features.
+# -------------------------------
+ 
+# Vencore Labs                                    Site #: 3116947
+ 
+SERVER put_server_name_here 0024E86F749B 1717
+DAEMON mgcld path_to_mgcld
+INCREMENT msimcompare mgcld 2019.100 20-jan-2025 4 6E1F07C6C5BD874B81D6 \
+    VENDOR_STRING=D5DC724C SN=70048027 SIGN2="0E88 978D 90B7 4E6D AFD2 \
+    EF0E 041F 927B 05DB E9C3 76F4 12C8 C8B7 9D01 9F3D 0240 484A 2C0F 39CC \
+    EAF7 9D33 9B42 48FA 8DB8 2BE5 2DC7 657A F137 D8B8 5154"
+INCREMENT msimcoverage mgcld 2019.100 20-jan-2025 4 EEBF57E67DC617C2F449 \
+    VENDOR_STRING=A9774C0E SN=70048023 SIGN2="1F2F C3C0 BFE8 1976 A6BD \
+    D35D 4404 8401 EDA0 BB0B 60F0 725D 25F8 130F 4BF2 177C 1FE3 E138 F2E5 \
+    BC6F FE96 D650 9881 543D 857C 9495 3730 CE19 00F4 55EE"
+INCREMENT msimdataflow mgcld 2019.100 20-jan-2025 4 7EBF57D69841910FE249 \
+    VENDOR_STRING=65F755DF SN=70048026 SIGN2="1428 31E3 D85F 8ED3 A1B1 \
+    68EC 8934 D270 4D67 AB0D BF45 B25A CBC5 9947 0E8A 119B 03E5 49EA 8441 \
+    E585 5371 3BC7 B9DA 3D6E 539A E80D C869 2F93 0BBA 8374"
+INCREMENT msimpevsim mgcld 2019.100 20-jan-2025 2 3E0F077678089F2EC048 \
+    VENDOR_STRING=E5CC8F4D SN=70048025 SIGN2="079A DE2E 7031 E785 515F \
+    DDA6 1633 2CCF 71A2 24EF E0D9 ABCE 0F9F 0C10 F008 0386 794B D402 21E9 \
+    4155 C382 26C7 8F11 7DD9 7BDA D15C BFF8 30F8 1546 8C61"
+INCREMENT msimpevsimvlog mgcld 2019.100 20-jan-2025 2 DE8F870632884E6A3E72 \
+    VENDOR_STRING=D26B15F0 SN=70048028 SIGN2="16E8 FA78 156B 9C0D D2A9 \
+    A1C0 1835 251E BBAD 22D8 FFBA 79BB B66A E803 ABE3 0A92 9650 0D4C BC0D \
+    862F C95F 71DC 3B7D F984 11AE 742D 5C8F 0686 52D2 8CCB"
+INCREMENT msimviewer mgcld 2019.100 20-jan-2025 4 8E6F57A607AC061D7A76 \
+    VENDOR_STRING=ED7B7AB0 SN=70048022 SIGN2="0403 F0F3 2E3E 635E BC87 \
+    8E94 617F 2EDD D706 0FF9 E159 2539 0A62 3A3F F3EF 0138 59E0 78D5 3058 \
+    8ABF 5528 D7D4 1E41 A5EA 0083 4B85 80B9 A360 CCF6 C821"
+INCREMENT peproassertions mgcld 2019.100 20-jan-2025 4 \
+    0ECFE7860C3026F06CF4 VENDOR_STRING=09B3D169 SN=70048024 SIGN2="0CE9 \
+    CC7B F20D E0C2 37FB EAF6 0A88 5E86 047D 60BF 4A17 6453 AC22 3C27 9461 \
+    1E36 88EB 6D2C 46A1 9443 5759 B28F 736D 1F1F 2043 F465 77C5 A6DE DF5E \
+    81A8"
+INCREMENT secureip mgcld 2019.100 20-jan-2025 4 7E4F37664DD18DB4D233 \
+    VENDOR_STRING=A89C5357 SN=70048021 SIGN2="0C9A 9072 693B E2D5 FDDC \
+    D0ED 4001 D0AA 6665 1077 AC7B 67B2 93B8 3EC1 A7CF 0D9B 26D2 4EC0 5F26 \
+    1171 4A8F FE74 D013 C84D BBB1 90F9 246D 52A0 46C8 B28E"
+ 
+############################# License Content #############################
+ 
+# The "License Content" section summarizes just the products and feature
+# lines in this particular license file, not all products and feature lines
+# that may be at your site. Because Mentor provides rolled authcodes, you
+# may find that the quantities in the "License Content" section (which
+# reflect just this license file) are different than the quantities in the
+# "Encryption" section (which reflect combined or "rolled" quantities of
+# like features).
+ 
+# Server(s) - 0024E86F749B
+# 
+# P/N     Description                              Item Qty
+# ------- ---------------------------------------- -------------------------
+#         Feature Name               Version  Start Date Exp. Date  Ser. Nbr
+# 
+# 241452  ModelSim DE PLUS Bnd SW                  2       
+#         msimcompare                2019.100 12/22/2019 1/20/2025  70048027
+#         msimcoverage               2019.100 12/22/2019 1/20/2025  70048023
+#         msimdataflow               2019.100 12/22/2019 1/20/2025  70048026
+#         msimpevsim                 2019.100 12/22/2019 1/20/2025  70048025
+#         msimpevsimvlog             2019.100 12/22/2019 1/20/2025  70048028
+#         msimviewer                 2019.100 12/22/2019 1/20/2025  70048022
+#         peproassertions            2019.100 12/22/2019 1/20/2025  70048024
+#         secureip                   2019.100 12/22/2019 1/20/2025  70048021
+ 
+######################### End of License Content ##########################

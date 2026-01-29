@@ -1,0 +1,39 @@
+#!/bin/csh
+
+##############################################################
+# Set up for Quartus 13.0sp1
+##############################################################
+# Not set up yet
+#LM_LICENSE_FILE=/usr/local/flexlm/licenses-altera/license.dat
+#export LM_LICENSE_FILE
+export LM_LICENSE_FILE=$LM_LICENSE_FILE:28000@hwrad
+
+export PATH=$PATH:/opt/altera/13.0sp1/quartus/bin
+export QUARTUS_64BIT=1
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib64
+
+##############################################################
+# Set up for Modelsim DE
+##############################################################
+# Not set up yet
+export LM_LICENSE_FILE=$LM_LICENSE_FILE:1717@hwrad
+
+export MODEL_TECH=/opt/modelsim/modelsim_dlx/linuxpe
+# Version 10.2c
+#export MODEL_TECH=/opt/ModSim/modelsim_dlx/linuxpe
+# Version 10.0c
+#export MODEL_TECH=/opt/ModSim-10-0c/modelsim_dlx/linuxpe
+
+export PATH=$PATH:$MODEL_TECH/../bin
+
+##############################################################
+# Set up for Bittware Atlantis Framework - Latest version...
+##############################################################
+#export AFW_VERSION=afw_130416s5
+#export AFW_VERSION=afw_131114s5
+export AFW_VERSION=afw_140917s5
+#export AFW_VERSION=afw_update
+#export AFW_ROOT=$HOME/svn/radical/trunk/fpga/afw/$AFW_VERSION
+# We decided to store the AFW releases in /local
+export AFW_ROOT=/local/bittware/afw/$AFW_VERSION
+export PATH=$PATH:$AFW_ROOT/lib/scripts/build

@@ -1,0 +1,359 @@
+SERVER hwrad 0024E86F749B 2662
+#
+USE_SERVER
+#
+VENDOR xilinxd
+#
+#  This license is valid for evaluation ( 365 days ) from Wed May 30 18:50:44 UTC 2018
+INCREMENT PetaLinux_NoSuport_Eval xilinxd 2019.05 31-may-2019 1 \
+D6813E2E8643 \
+VENDOR_STRING=236422,PetaLinux_NoSuport_Eval,software,evaluation,_174831543_1777525717_0_827 \
+ISSUER="Xilinx Inc" START=30-May-2018 TS_OK
+#
+# This is a permanent license generated on Wed May 30 18:50:44 UTC 2018
+INCREMENT PartialReconfiguration xilinxd 2019.05 permanent 1 \
+35E1D2E73249 \
+VENDOR_STRING=236422,PartialReconfiguration,software,permanent,_174831543_1777525717_0_165 \
+ISSUER="Xilinx Inc" START=30-May-2018 TS_OK
+#
+# This is a permanent license generated on Wed May 30 18:50:44 UTC 2018
+INCREMENT ap_opencl xilinxd 2019.05 permanent 1 23ED2427D541 \
+VENDOR_STRING=236422,ap_opencl,software,permanent,_174831543_1777525717_0_845 \
+ISSUER="Xilinx Inc" START=30-May-2018 TS_OK
+#
+# This is a permanent license generated on Wed May 30 18:50:44 UTC 2018
+INCREMENT XCVU9P xilinxd 2019.05 permanent 1 F86BDFD14BF5 \
+VENDOR_STRING=236422,XCVU9P,software,permanent,_174831543_1777525717_0_726 \
+ISSUER="Xilinx Inc" START=30-May-2018 TS_OK
+#
+# This is a permanent license generated on Wed May 30 18:50:44 UTC 2018
+INCREMENT EncryptedWriter_v2 xilinxd 2019.05 permanent 1 C6CEFD38255B \
+VENDOR_STRING=236422,EncryptedWriter_v2,software,permanent,_174831543_1777525717_0_864 \
+ISSUER="Xilinx Inc" START=30-May-2018 TS_OK
+#
+# This is a permanent license generated on Wed May 30 18:50:44 UTC 2018
+INCREMENT xcvu9p_bitgen xilinxd 2019.05 permanent 1 26105CBEA2C7 \
+VENDOR_STRING=236422,xcvu9p_bitgen,software,permanent,_174831543_1777525717_0_849 \
+ISSUER="Xilinx Inc" START=30-May-2018 TS_OK
+#
+# This is a permanent license generated on Wed May 30 18:50:44 UTC 2018
+INCREMENT Vivado_System_Edition xilinxd 2019.05 permanent 1 \
+86EABC42BDCB \
+VENDOR_STRING=236422,Vivado_System_Edition,software,permanent,_174831543_1777525717_210683352_864 \
+ISSUER="Xilinx Inc" START=30-May-2018 TS_OK
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE PetaLinux_NoSuport_Eval xilinxd 2019.05 7A0A63122C49 \
+COMPONENTS="petalinux_arch_microblaze petalinux_arch_ppc \
+petalinux_arch_zynq" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE Vivado_System_Edition xilinxd 2019.05 5DFC771A93A5 \
+COMPONENTS="SDK SysGen PartialReconfiguration Simulation \
+Implementation Analyzer HLS Synthesis" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+#
+#
+#SERVER hwrad 0024e86f749b 2100
+#
+#USE_SERVER
+#
+#VENDOR xilinxd
+#
+# This is a permanent license generated on Wed May 30 18:40:29 UTC 2018
+INCREMENT lte_rach_detector xilinxd 2018.09 28-sep-2018 9999 \
+66887064873B \
+VENDOR_STRING=License_Type:Bought;236422,lte_rach_detector,ip,evaluation,_174831543_1777535087_210683728_262 \
+ISSUER="Xilinx Inc" NOTICE="The license for this core was \
+generated for 236422 on 05/31/2018It is the responsibility of \
+the Licensee of this core to adhere to all terms and \
+conditions of the applicable license agreement when using this \
+core." START=30-May-2018 TS_OK
+#
+# This is a permanent license generated on Wed May 30 18:40:29 UTC 2018
+INCREMENT lte_fft xilinxd 2018.09 28-sep-2018 9999 9B57B949DD11 \
+VENDOR_STRING=License_Type:Bought;236422,lte_fft,ip,evaluation,_174831543_1777535087_210683728_827 \
+ISSUER="Xilinx Inc" NOTICE="The license for this core was \
+generated for 236422 on 05/31/2018It is the responsibility of \
+the Licensee of this core to adhere to all terms and \
+conditions of the applicable license agreement when using this \
+core." START=30-May-2018 TS_OK
+
+
+
+# This is a permanent license generated on Tue Jul 16 18:05:21 UTC 2019
+INCREMENT Vivado_System_Edition xilinxd 2019.12 permanent 1 \
+211DA78362B7 \
+VENDOR_STRING=wjohnson@perspectalabs.com,Vivado_System_Edition,software,permanent,_211553964_1777540811_210695935_428 \
+ISSUER="Xilinx Inc" START=16-Jul-2019 TS_OK
+#
+# This is a permanent license generated on Tue Jul 16 18:05:21 UTC 2019
+INCREMENT ISE_System_Edition xilinxd 2019.12 permanent 1 7DFE313DFCA9 \
+VENDOR_STRING=wjohnson@perspectalabs.com,ISE_System_Edition,software,permanent,_211553964_1777540811_210695935_800 \
+ISSUER="Xilinx Inc" START=16-Jul-2019 TS_OK
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE Vivado_System_Edition xilinxd 2019.12 1F6E04BF7FCA \
+COMPONENTS="SDK SysGen PartialReconfiguration Simulation \
+Implementation Analyzer HLS Synthesis" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE ISE_System_Edition xilinxd 2019.12 EAF29994558F \
+COMPONENTS="ChipScopePro_SIOTK ChipscopePro ISE SysGen XPS HLS \
+ISIM PlanAhead" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+
+
+# This is a permanent license generated on Sun Aug 22 16:29:40 UTC 2021
+INCREMENT sd_fec xilinxd 2022.08 permanent 9999 296DD6EC8AF0 \
+VENDOR_STRING=License_Type:Bought;wjohnson@perspectalabs.com,sd_fec,ip,permanent,_211553964_1777550830_0_406 \
+ISSUER="Xilinx Inc" NOTICE="The license for this core was \
+generated for wjohnson@perspectalabs.com on 08/23/2021It is \
+the responsibility of the Licensee of this core to adhere to \
+all terms and conditions of the applicable license agreement \
+when using this core." START=22-Aug-2021 TS_OK
+
+
+# This is a permanent license generated on Mon Oct 25 20:49:43 UTC 2021
+INCREMENT ISE_Embedded_Edition xilinxd 2022.10 permanent 2 \
+49C25D256C46 \
+VENDOR_STRING=wjohnson@peratonlabs.com,ISE_Embedded_Edition,software,permanent,_212331456_1777566292_210751099_525 \
+ISSUER="Xilinx Inc" START=25-Oct-2021 TS_OK
+#
+# This is a permanent license generated on Mon Oct 25 20:49:43 UTC 2021
+INCREMENT Vivado_ML_Enterprise_Edition xilinxd 2022.10 permanent 2 \
+F5C8ADD98FD6 \
+VENDOR_STRING=wjohnson@peratonlabs.com,Vivado_ML_Enterprise_Edition,software,permanent,_212331456_1777566292_210751099_527 \
+ISSUER="Xilinx Inc" START=25-Oct-2021 TS_OK
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE ISE_Embedded_Edition xilinxd 2022.10 2E5108EEB8B9 \
+COMPONENTS="ChipScopePro_SIOTK ChipscopePro ISE XPS ISIM \
+PlanAhead SDK" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE Vivado_ML_Enterprise_Edition xilinxd 2022.10 9CFBE27C9901 \
+COMPONENTS="Analyzer HLS Implementation PartialReconfiguration \
+SDK Simulation Synthesis" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+#
+# ----- REMOVE LINES BELOW HERE --------------------------
+# ----- REMOVE LINES ABOVE HERE --------------------------
+#
+#
+#SERVER hwrad 0024E86F749B 2100
+#
+#USE_SERVER
+#
+#VENDOR xilinxd
+#
+# This is a permanent license generated on Sun Apr 17 13:07:54 UTC 2022
+INCREMENT ldpc xilinxd 2023.03 permanent 9999 A42B40D8100D \
+VENDOR_STRING=License_Type:Bought;wjohnson@peratonlabs.com,ldpc,ip,permanent,_212331456_1777569834_210758349_820 \
+ISSUER="Xilinx Inc" NOTICE="The license for this core was \
+generated for wjohnson@peratonlabs.com on 04/18/2022It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." START=17-Apr-2022 TS_OK
+#
+# ----- REMOVE LINES BELOW HERE --------------------------
+
+# ----- REMOVE LINES ABOVE HERE --------------------------
+# This is a permanent license generated on Thu Jun 01 18:55:55 UTC 2023
+INCREMENT gig_eth_pcs_pma xilinxd 2024.06 permanent 9999 A98F6963C179 \
+VENDOR_STRING=License_Type:Bought;wjohnson@peratonlabs.com,gig_eth_pcs_pma,ip,permanent,_212331456_1777569834_0_162 \
+ISSUER="Xilinx Inc" NOTICE="The license for this core was \
+generated for wjohnson@peratonlabs.com on 06/02/2023It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." START=01-Jun-2023 TS_OK
+#
+# Licenses for gig_eth_pcs_pma_v8
+FEATURE gig_eth_pcs_pma_v8 xilinxd 1.0 permanent 9999 BB7E221AEFA3 \
+VENDOR_STRING=License_Type:Bought ISSUER=Xilinx NOTICE="The \
+license for this core was generated for \
+wjohnson@peratonlabs.com on 06/02/2023It is the responsibility \
+of the Licensee of this core to adhere to all terms and \
+conditions of the applicable license agreement when using this \
+core." TS_OK
+#
+# Licenses for gig_eth_pcs_pma_v4_0
+FEATURE gig_eth_pcs_pma_v4_0 xilinxd 1.0 permanent 9999 0F3E6E1815B1 \
+VENDOR_STRING=License_Type:Bought ISSUER=Xilinx NOTICE="The \
+license for this core was generated for \
+wjohnson@peratonlabs.com on 06/02/2023It is the responsibility \
+of the Licensee of this core to adhere to all terms and \
+conditions of the applicable license agreement when using this \
+core." TS_OK
+#
+# Licenses for gig_eth_pcs_pma_v6
+FEATURE gig_eth_pcs_pma_v6 xilinxd 1.0 permanent 9999 A700FEEEC753 \
+VENDOR_STRING=License_Type:Bought ISSUER=Xilinx NOTICE="The \
+license for this core was generated for \
+wjohnson@peratonlabs.com on 06/02/2023It is the responsibility \
+of the Licensee of this core to adhere to all terms and \
+conditions of the applicable license agreement when using this \
+core." TS_OK
+#
+# Licenses for gig_eth_pcs_pma_v3_0
+FEATURE gig_eth_pcs_pma_v3_0 xilinxd 1.0 permanent 9999 FDD25CDD3CDD \
+VENDOR_STRING=License_Type:Bought ISSUER=Xilinx NOTICE="The \
+license for this core was generated for \
+wjohnson@peratonlabs.com on 06/02/2023It is the responsibility \
+of the Licensee of this core to adhere to all terms and \
+conditions of the applicable license agreement when using this \
+core." TS_OK
+#
+# Licenses for gig_eth_pcs_pma_v5_0
+FEATURE gig_eth_pcs_pma_v5_0 xilinxd 1.0 permanent 9999 0551D8CBD295 \
+VENDOR_STRING=License_Type:Bought ISSUER=Xilinx NOTICE="The \
+license for this core was generated for \
+wjohnson@peratonlabs.com on 06/02/2023It is the responsibility \
+of the Licensee of this core to adhere to all terms and \
+conditions of the applicable license agreement when using this \
+core." TS_OK
+#
+# Licenses for gig_eth_pcs_pma_v9
+FEATURE gig_eth_pcs_pma_v9 xilinxd 1.0 permanent 9999 23B5929EF575 \
+VENDOR_STRING=License_Type:Bought ISSUER=Xilinx NOTICE="The \
+license for this core was generated for \
+wjohnson@peratonlabs.com on 06/02/2023It is the responsibility \
+of the Licensee of this core to adhere to all terms and \
+conditions of the applicable license agreement when using this \
+core." TS_OK
+#
+# Licenses for gig_eth_pcs_pma_v7
+FEATURE gig_eth_pcs_pma_v7 xilinxd 1.0 permanent 9999 AF2166C26DED \
+VENDOR_STRING=License_Type:Bought ISSUER=Xilinx NOTICE="The \
+license for this core was generated for \
+wjohnson@peratonlabs.com on 06/02/2023It is the responsibility \
+of the Licensee of this core to adhere to all terms and \
+conditions of the applicable license agreement when using this \
+core." TS_OK
+#
+# Licenses for gig_eth_pcs_pma_v10
+FEATURE gig_eth_pcs_pma_v10 xilinxd 1.0 permanent 9999 274D0A563928 \
+VENDOR_STRING=License_Type:Bought ISSUER=Xilinx NOTICE="The \
+license for this core was generated for \
+wjohnson@peratonlabs.com on 06/02/2023It is the responsibility \
+of the Licensee of this core to adhere to all terms and \
+conditions of the applicable license agreement when using this \
+core." TS_OK
+#
+# This is a permanent license generated on Thu Jun 01 18:55:55 UTC 2023
+INCREMENT ethernet_statistics xilinxd 2024.06 permanent 9999 \
+108849DA01F5 \
+VENDOR_STRING=License_Type:Bought;wjohnson@peratonlabs.com,ethernet_statistics,ip,permanent,_212331456_1777569834_0_568 \
+ISSUER="Xilinx Inc" NOTICE="The license for this core was \
+generated for wjohnson@peratonlabs.com on 06/02/2023It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." START=01-Jun-2023 TS_OK
+#
+# Licenses for ethernet_statistics_v3
+FEATURE ethernet_statistics_v3 xilinxd 1.0 permanent 9999 \
+990FB1CA907C VENDOR_STRING=License_Type:Bought ISSUER=Xilinx \
+NOTICE="The license for this core was generated for \
+wjohnson@peratonlabs.com on 06/02/2023It is the responsibility \
+of the Licensee of this core to adhere to all terms and \
+conditions of the applicable license agreement when using this \
+core." TS_OK
+#
+# Licenses for ethernet_statistics_v1
+FEATURE ethernet_statistics_v1 xilinxd 1.0 permanent 9999 \
+965AD73890BE VENDOR_STRING=License_Type:Bought ISSUER=Xilinx \
+NOTICE="The license for this core was generated for \
+wjohnson@peratonlabs.com on 06/02/2023It is the responsibility \
+of the Licensee of this core to adhere to all terms and \
+conditions of the applicable license agreement when using this \
+core." TS_OK
+#
+# Licenses for ethernet_statistics_v2
+FEATURE ethernet_statistics_v2 xilinxd 1.0 permanent 9999 \
+EE1364B90CA3 VENDOR_STRING=License_Type:Bought ISSUER=Xilinx \
+NOTICE="The license for this core was generated for \
+wjohnson@peratonlabs.com on 06/02/2023It is the responsibility \
+of the Licensee of this core to adhere to all terms and \
+conditions of the applicable license agreement when using this \
+core." TS_OK
+#
+# This is a permanent license generated on Thu Jun 01 18:55:55 UTC 2023
+INCREMENT ten_gig_eth_pcs_pma xilinxd 2024.06 permanent 9999 \
+0283794A2E9A \
+VENDOR_STRING=License_Type:Bought;wjohnson@peratonlabs.com,ten_gig_eth_pcs_pma,ip,permanent,_212331456_1777569834_0_509 \
+ISSUER="Xilinx Inc" NOTICE="The license for this core was \
+generated for wjohnson@peratonlabs.com on 06/02/2023It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." START=01-Jun-2023 TS_OK
+#
+# This is a permanent license generated on Thu Jun 01 18:55:55 UTC 2023
+INCREMENT cmac_usplus xilinxd 2024.06 permanent 9999 9DF068F3D388 \
+VENDOR_STRING=License_Type:Bought;wjohnson@peratonlabs.com,cmac_usplus,ip,permanent,_212331456_1777569834_0_569 \
+ISSUER="Xilinx Inc" NOTICE="The license for this core was \
+generated for wjohnson@peratonlabs.com on 06/02/2023It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." START=01-Jun-2023 TS_OK
+#
+
+
+# This is a permanent license generated on Wed Oct 11 13:45:39 UTC 2023
+INCREMENT ISE_Embedded_Edition xilinxd 2024.10 permanent 2 \
+8E4A0D249DC8 \
+VENDOR_STRING=wjohnson@peratonlabs.com,ISE_Embedded_Edition,software,permanent,_212331456_1777580992_210781956_103 \
+ISSUER="Xilinx Inc" START=11-Oct-2023 TS_OK
+#
+# This is a permanent license generated on Wed Oct 11 13:45:39 UTC 2023
+INCREMENT Vivado_ML_Enterprise_Edition xilinxd 2024.10 permanent 2 \
+7A2C5FFC7E48 \
+VENDOR_STRING=wjohnson@peratonlabs.com,Vivado_ML_Enterprise_Edition,software,permanent,_212331456_1777580992_210781956_167 \
+ISSUER="Xilinx Inc" START=11-Oct-2023 TS_OK
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE ISE_Embedded_Edition xilinxd 2024.10 06E188C81CA3 \
+COMPONENTS="ChipScopePro_SIOTK ChipscopePro ISE XPS ISIM \
+PlanAhead SDK" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE Vivado_ML_Enterprise_Edition xilinxd 2024.10 A5B332B2BB8F \
+COMPONENTS="Analyzer HLS Implementation PartialReconfiguration \
+SDK Simulation Synthesis" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+#

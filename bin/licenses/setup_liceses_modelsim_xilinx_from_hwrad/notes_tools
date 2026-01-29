@@ -1,0 +1,50 @@
+
+. /opt/bin/setup_tools
+-> set up tools env 
+-> modelsim license server: 1717@hwrad -> export LM_LICENSE_FILE=$LM_LICENSE_FILE:1717@hwrad 
+ 
+/usr/local/flexlm/licenses/license.dat
+-> Modelsim license file 
+# start Modelsim license server that is already down  
+-> sudo lmgrd -c /usr/local/flexlm/licenses/license.dat -l /home/jcl/bin/license_modelsim.log 
+
+# switch Modelsim Flexnet license manager from v10.6c to v2019.4  
+# [jcl@hwrad bin]$ . dot_setup_tools - which lmgrd -> /share/modelsim_de_v2019.4/modelsim_dlx/linuxpe/lmgrd
+# lmstat -a | more -> see that "hwrad: license server UP (MASTER) v11.13.0.2"  
+# check Flexnet version: lmgrd -v -> lmgrd v11.14.1.3 build 212549 i86_lsb
+# note: hwrad:/opt/modelsim/modelsim_dlx/linuxpe> ./lmgrd -v -> lmgrd v11.13.0.2 build 162702 i86_lsb
+
+# shut down Modelsim license server 
+[jcl@hwrad bin]$ lmutil lmdown -c /usr/local/flexlm/licenses/license.dat
+# re-start Modelsim license server that is already down  
+# do this at top to set up lmgrd path: [jcl@hwrad bin]$ . dot_setup_tools 
+# msim_v2019.4:hwrad:/home/jcl/bin> which lmgrd -> /share/modelsim_de_v2019.4/modelsim_dlx/linuxpe/lmgrd
+lmgrd -c /usr/local/flexlm/licenses/license.dat -l /home/jcl/bin/license_modelsim.log 
+wait 10 secs for Server to be up -> lmstat -a | more -> confirm license server re-started -> mgcld: UP v11.14.1 
+
+/etc/init.d/ModSimLicServer.bash
+-> Modelsim license Daemon 
+#!/bin/bash
+### Start lmgrd for mgcld(mentor graphics)
+MODEL_TECH=/opt/modelsim/modelsim_dlx/linuxpe
+LM_LICENSE_FILE=/usr/local/flexlm/licenses/license.dat
+PATH=$PATH:$MODEL_TECH/../bin
+export PATH LM_LICENSE_FILE
+$MODEL_TECH/lmgrd mgcld  >/tmp/mgcld 2>&1
+
++ tutorial designs for a mix of hdl languages - ready to run 
+/opt/modelsim/modelsim_dlx/examples/tutorials
+
+/etc/init.d/XilinxLicenseServer.bash
+-> Xilinx license Daemon 
+export XILINXD_LICENSE_FILE=2662@hwrad
+#export LD_LIBRARY_PATH=/usr/local/flexlm/license_utilities_xilinx/lin_flexlm_v11.17.2.0/lnx64.o
+#export LD_LIBRARY_PATH=/usr/local/flexlm/license_utilities_xilinx/linux_flexlm_v11.13.1.3/lnx64.o
+#export LD_LIBRARY_PATH=/opt/Xilinx/Vivado/2018.1/bin/unwrapped/lnx64.o
+
+# adding in path for glibc-2.14
+export LD_LIBRARY_PATH=/opt/glibc-2.14/lib
+#$LD_LIBRARY_PATH/lmgrd.sh -c /usr/share/Xilinx/xilinx.lic -l /usr/share/Xilinx/licensing.log
+#$LD_LIBRARY_PATH/lmgrd -c /usr/share/Xilinx/xilinx.lic -l /usr/share/Xilinx/licensing.log
+/usr/local/flexlm/license_utilities_xilinx/lin_flexlm_v11.17.2.0/lnx64.o/lmgrd -c /usr/share/Xilinx/xilinx.lic -l /usr/s
+hare/Xilinx/licensing.log
